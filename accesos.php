@@ -25,7 +25,7 @@ url=index.php?msg=$msg'>";
         }
         else
         {
-            print"<meta http-equiv='refresh' content='0;url=inicio2.php'>";
+            print"<meta http-equiv='refresh' content='0;url=index.php'>";
             exit;
         }
 

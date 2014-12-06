@@ -7,7 +7,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>P#1</title>
+    <title>Sistema de Escuela</title>
 
     <!-- Bootstrap core CSS -->
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -29,7 +29,9 @@
 </head>
 <body>
 <?php
-echo "
+echo "<div class='page-header'>
+        <center><h1>SISTEMA ESCOLAR</h1></center>
+      </div>
         <div class=table-responsive>
             <form name=alumno action=valida.php method=get>
                 <table class=\"table table-bordered\">

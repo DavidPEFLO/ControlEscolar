@@ -7,7 +7,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>P#1</title>
+    <title>Sistema</title>
 
     <!-- Bootstrap core CSS -->
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -31,7 +31,7 @@
 
 <?php include ('menu.php')  ?>
 
-
+ 
 
 
 

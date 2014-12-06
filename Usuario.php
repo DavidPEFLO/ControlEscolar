@@ -86,12 +86,12 @@ class Usuario {
                                  VALUES('$nombre','$apellidop','$apellidom',$nivel,1)";
         $execute01 = mysql_query($insert01) or die("Error  $insert01");
     }
-    public function updateUsuario($id,$nombre,$apellidop,$apellidom,$nivel){
-        //echo "<br>updateUsuario";
-        $delete01 = " UPDATE usuario SET Nombre='$nombre', Apat='$apellidop',
-            Amat = '$apellidom', Nivel='$nivel' WHERE Id = $id";
-        $execute01 = mysql_query($delete01) or die("Error  $delete01");
-    }
+   public function updateUsuario($id,$nombre,$apellidop,$apellidom,$nivel){
+            //echo "<br>updateUsuario";
+            $delete01 = " UPDATE usuario SET Nombre='$nombre', ApellidoPaterno='$apellidop',
+            ApellidoMaterno = '$apellidom', Nivel='$nivel' WHERE id = $id";
+            $execute01 = mysql_query($delete01) or die("Error  $delete01");
+        }
     public function deleteUsuario($id){
         //echo "<br>deleteUsuario";
         $delete01 = " DELETE FROM alumno_grupo WHERE id = $id";
